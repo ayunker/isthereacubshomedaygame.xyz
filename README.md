@@ -1,2 +1,2 @@
 # isthereacubshomedaygame.xyz
-is there a cubs home day game today?
+Answers the only important question - is there a cubs home day game today???
