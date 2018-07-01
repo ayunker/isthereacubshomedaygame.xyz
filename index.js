@@ -38,8 +38,11 @@ window.onload = function() {
   const nope = "NO";
   const yep = "🚨🚨 YES 🚨🚨";
 
-  if (homeDayGames[today]) {
+  var gameTime = homeDayGames[today];
+
+  if (gameTime) {
     document.getElementById("bigMoney").innerHTML = yep;
+    document.getElementById("details").innerHTML =gameTime;
   }
   else {
    document.getElementById("bigMoney").innerHTML = nope;
